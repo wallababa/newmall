@@ -62,7 +62,7 @@ function signIn() {
     return false;
   }
 
-  alert('성공');
+  alert('1성공1');
   return true;
 }
 
