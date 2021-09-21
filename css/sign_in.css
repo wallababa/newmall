@@ -1,14 +1,23 @@
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .main-container {
-  margin-top: 5%;
-  height: 850px;
+  /* margin-top: 5%; */
+
+  /* 이 코드들도 필요한 내용은 아닙니다. */
+  /* height: 850px;
   width: 410px;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   /* 01transform 개념..*/
   text-align: center;
-
+  /* 의미없이 빈 공간을 두는 건 좋지 않습니다. */
 }
 
 .main-container h1 {
